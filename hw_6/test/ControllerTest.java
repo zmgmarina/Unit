@@ -13,10 +13,7 @@ import static org.mockito.Mockito.*;
         double testAverageValue2;
 
         Controller controllerMock;
-        Controller controller;
-        ActivityOfList activityOfList;
-
-
+  
         @BeforeEach
         void setUp() {
             testList1 = new int[]{1, 1, 1, 1, 1};
